@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a513a909-d6f1-41c1-8a83-d373d034de57" name="Default Changelist" comment="">
+    <list default="true" id="a513a909-d6f1-41c1-8a83-d373d034de57" name="Default Changelist" comment="Season App">
       <change afterPath="$PROJECT_DIR$/src/pack/CarForGetSet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pack/Constructor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pack/GetterAndSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/SeasonApp.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pack/StringMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pack/ArrayInLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/ArrayInLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pack/ExampleCommit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/ExampleCommit.java" afterDir="false" />
@@ -28,10 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pack/SeasonApp.java">
+        <entry file="file://$PROJECT_DIR$/src/pack/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
+            <state relative-caret-position="436">
+              <caret line="55" column="59" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -66,13 +66,16 @@
         <option value="$PROJECT_DIR$/src/pack/LimitsOfTypesApp.java" />
         <option value="$PROJECT_DIR$/src/pack/SeasonEnum.java" />
         <option value="$PROJECT_DIR$/src/pack/SeasonApp.java" />
+        <option value="$PROJECT_DIR$/src/pack/StudentMain.java" />
+        <option value="$PROJECT_DIR$/src/pack/Student.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="831" />
+    <option name="y" value="14" />
+    <option name="width" value="545" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,20 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SeasonApp">
-    <configuration name="ConstructorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pack.ConstructorExample" />
-      <module name="yhRep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Student">
     <configuration name="GetterAndSetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pack.GetterAndSetter" />
       <module name="yhRep" />
@@ -194,13 +184,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pack.Student" />
+      <module name="yhRep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.SeasonApp" />
         <item itemvalue="Application.LimitsOfTypesApp" />
         <item itemvalue="Application.StringMethods" />
         <item itemvalue="Application.GetterAndSetter" />
-        <item itemvalue="Application.ConstructorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -245,17 +248,24 @@
       <option name="project" value="LOCAL" />
       <updated>1588023946958</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Season App">
+      <created>1588027146916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588027146916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20482000" />
+    <option name="totallyTimeSpent" value="27785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36308622" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36308622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -264,7 +274,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27986908" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2913257" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,7 +283,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.24713585" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -295,7 +305,8 @@
     <MESSAGE value="Methods1, Methods1" />
     <MESSAGE value="Methods2" />
     <MESSAGE value="Min and Max values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Min and Max values" />
+    <MESSAGE value="Season App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Season App" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pack/secondClass.java" />
@@ -398,8 +409,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pack/SeasonApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="34" column="78" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
+        <state relative-caret-position="119">
+          <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3553">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pack/StudentMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pack/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="55" column="59" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
         </state>
       </provider>
     </entry>
