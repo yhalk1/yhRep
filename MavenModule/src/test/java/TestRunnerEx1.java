@@ -2,7 +2,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class TestRunner {
+public class TestRunnerEx1 {
 
 
     @BeforeClass
@@ -12,7 +12,7 @@ public class TestRunner {
 
     @AfterClass
     public void teardown(){
-        System.out.println(" Teardown");
+        System.out.println("Teardown");
     }
 
     @Test
