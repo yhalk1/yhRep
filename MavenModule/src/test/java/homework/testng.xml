@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite Param">
+    <test name="Test Param">
+        <parameter name="param1" value="Hello"></parameter>
+        <parameter name="param2" value="World"></parameter>
+        <parameter name="param3" value="!"></parameter>
+        <classes>
+            <class name="homework.TestWithParameters"/>
+        </classes>
+     </test>
+</suite>
