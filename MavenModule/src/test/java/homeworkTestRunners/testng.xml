@@ -7,7 +7,7 @@
         <parameter name="param2" value="World"></parameter>
         <parameter name="param3" value="!"></parameter>
         <classes>
-            <class name="homework.TestWithParameters"/>
+            <class name="homeworkTestRunners.TestWithParameters"/>
         </classes>
      </test>
 </suite>
