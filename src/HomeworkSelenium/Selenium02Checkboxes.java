@@ -16,6 +16,7 @@ public class Selenium02Checkboxes {
         WebElement box2 = driver.findElement(By.xpath("//*[@id=\"contentblock\"]/section/div[1]/div[2]/input"));
         Thread.sleep(2000);
         box1.click();
+
         Thread.sleep(2000);
         box2.click();
         Thread.sleep(6000);

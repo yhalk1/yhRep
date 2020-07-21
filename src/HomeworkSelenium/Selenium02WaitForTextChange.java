@@ -19,6 +19,7 @@ public class Selenium02WaitForTextChange {
         action.moveToElement(btn).perform();
         System.out.println("Old button title : " + btn.getText());
         Thread.sleep(6000);
+
         System.out.println("New button title : " + btn.getText());
 
         driver.close();

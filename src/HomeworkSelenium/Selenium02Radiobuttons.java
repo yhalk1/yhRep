@@ -15,6 +15,7 @@ public class Selenium02Radiobuttons {
         WebElement rad1 = driver.findElement(By.xpath("//*[@id=\"yes\"]"));
         Thread.sleep(2000);
         rad1.click();
+
         WebElement rad2 = driver.findElement(By.xpath("//*[@id=\"no\"]"));
         Thread.sleep(2000);
         rad2.click();

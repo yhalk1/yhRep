@@ -15,13 +15,13 @@ public class Selenium02 {
         ChromeDriver driver = new ChromeDriver(options);
         driver.get("http://www.leafground.com/");
 
-       /*String mainWindow = driver.getWindowHandle();
+       String mainWindow = driver.getWindowHandle();
         Thread.sleep(2000);
         //navigate to window section
         driver.findElement(By.xpath("//*[@id=\"post-153\"]/div[2]/div/ul/li[11]/a/img")).click();
         Thread.sleep(2000);
         //navigate to Open Multiple Windows button
-        driver.findElement(By.xpath("//*[@id=\"contentblock\"]/section/div[2]/div/div/button")).click();*/
+        driver.findElement(By.xpath("//*[@id=\"contentblock\"]/section/div[2]/div/div/button")).click();
 
 
         Thread.sleep(6000);
